@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="pl" />
+<meta name="Author" content="Kacper Zaczek" />
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<script src="../js/kolorujtlo.js" type="text/javascript"></script>
+<script src="../js/timedate.js" type="text/javascript"></script>
+<title>Filmy Oscarowe</title>
+
+</head>
+<body onload="startclock()">
+<table>
+	<tr>
+		<div id="title">
+			<h1><i>Zmienkolor</i></h1>
+			<div id="zegarek"></div>
+			<div id="data"></div>
+		</div>
+	</tr>
+
+	<tr>
+	<div id="navigation"><a href="../index.html">Strona Główna</a></div>
+	<div id="navigation"><a href="aktorzy.html">Aktorzy</a></div>
+	<div id="navigation"><a href="filmy.html">Filmy</a></div>
+	<div id="navigation"><a href="galeria.html">Galeria</a></div>
+	<div id="navigation"><a href="onas.html">O nas</a></div>
+	<div id="navigation"><a href="kontakt.html">Kontakt</a></div>
+	<div id="navigation"><a href="zmienkolor.html">Zmienkolor</a></div>
+	</tr>
+
+	<tr>
+		<main>
+		<h2  style="text-align: center;">Zmień kolor strony</h2>
+		<form method="post" name="background" id="zmienkolory">
+			<input type="button" value="bazowy" onclick="changeBackground('#AEFFD8')">
+			<input type="button" value="czarny" onclick="changeBackground('#000000')">
+			<input type="button" value="biały" onclick="changeBackground('#FFFFFF')">
+			<input type="button" value="zielony" onclick="changeBackground('#00FF00')">
+			<input type="button" value="niebieski" onclick="changeBackground('#0000FF')">
+			<input type="button" value="pomarańczowy" onclick="changeBackground('#FF8000')">
+			<input type="button" value="szary" onclick="changeBackground('#c0c0c0')">
+			<input type="button" value="czerwony" onclick="changeBackground('#FF0000')">
+			
+		</form>
+		</main>
+	</tr>
+</table>
+<footer>Filmy Oscarowe</footer>
+</body>
+</html>

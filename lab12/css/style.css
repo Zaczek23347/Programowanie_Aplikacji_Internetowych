@@ -1,0 +1,111 @@
+body
+{
+	background-color: #AEFFD8;
+	margin: 0px;
+	padding: 0px;
+}
+#title{
+	height: 50%;
+	width: 100%;
+	color: #9F4A54;
+	text-align: center;
+}
+a{
+	text-decoration-line: unset;
+	color: black;
+}
+#navigation {
+	background-color: #8FDC97;
+	float: left;
+	width: 10.3%;
+	border: solid;
+	text-align: center;
+	margin-right: 0.3%;
+	border-radius: 15px;
+	margin-bottom: 80px;
+}
+#navigation:hover{
+	background-color: #8AFFC1;
+}
+#main{
+	border-top: solid;
+	border-bottom: solid;
+	margin-top: 80px;
+	background-color: #AC8887;
+	padding-bottom: 90px;
+
+}
+main{
+	border-top: solid;
+	border-bottom: solid;
+	margin-top: 80px;
+	background-color: #AC8887;
+	float: left;
+	width: 100%;
+	padding: 5px 0px 5px 0px;
+
+}
+img{
+	border-radius: 15px;
+	border: solid;
+}
+
+#img1{
+	width: 250px;
+	float: left;
+}
+#img2{
+	width: 600px;
+	float: right;
+}
+#img3{
+	width: 400px;
+	height: 300px;
+	float: right;
+}
+footer{
+	margin-top: 15px;
+	text-align: center;
+	width: 100%;
+	border-top: solid;
+	background-color: #AEFFD8;
+	position: fixed;
+	bottom: 0;
+}
+#aktorzyna{
+	height: 400px;
+	border-bottom-style: dashed;
+}
+#aktorzynaost{
+	height: 400px;	
+}
+#galeria{
+	float: left;
+}
+figcaption{
+	text-align: center;
+}
+#zmienkolory{
+	float: right;
+}
+.test-block{
+	width: 200px;
+	border: 2px solid rgba(71,236,30,1);
+	background: rgba(71,236,30,0,7);
+	text-align: center;
+	color: #000;
+	padding: 20px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+iframe
+{
+	margin-left: 33%;
+}
